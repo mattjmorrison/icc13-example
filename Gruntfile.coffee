@@ -3,4 +3,8 @@ module.exports = (grunt) ->
   grunt.initConfig require("load-grunt-config") grunt,
     configPath: "tasks/options"
 
-  grunt.task.registerTask 'test', ['emberhandlebars', 'karma']
+  grunt.task.registerTask 'test', [
+    'emberhandlebars'
+    'coffee'
+    'karma'
+  ]

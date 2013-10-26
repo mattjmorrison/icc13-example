@@ -12,9 +12,8 @@ module.exports = {
                 'bower_components/jquery/jquery.min.js',
                 'bower_components/handlebars/handlebars.js',
                 'bower_components/ember/ember.js',
-                'src/*.js',
                 'build/*.js',
-                'tests/*.js'
+                'tests/build/*.js'
             ]
         }
     }
