@@ -3,6 +3,7 @@
         "bower": "*",
         "grunt-cli": "*",
         "grunt-karma": "*",
+        "karma-coverage": "*",
         "load-grunt-tasks": "*",
         "load-grunt-config": "*",
         "karma-qunit": "*",
