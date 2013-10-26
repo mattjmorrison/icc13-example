@@ -11,7 +11,8 @@
         "grunt-ember-template-compiler": "*",
         "grunt-contrib-coffee": "*",
         "grunt-coffeelint": "*",
-        "grunt-contrib-watch": "*"
+        "grunt-contrib-watch": "*",
+        "grunt-recess": "*"
     },
     "scripts": {
         "postinstall": "bower install"
