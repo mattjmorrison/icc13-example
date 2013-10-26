@@ -13,6 +13,7 @@ module.exports = {
                 'bower_components/handlebars/handlebars.js',
                 'bower_components/ember/ember.js',
                 'src/*.js',
+                'build/*.js',
                 'tests/*.js'
             ]
         }

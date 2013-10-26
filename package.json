@@ -6,7 +6,8 @@
         "load-grunt-tasks": "*",
         "load-grunt-config": "*",
         "karma-qunit": "*",
-        "karma-phantomjs-launcher": "*"
+        "karma-phantomjs-launcher": "*",
+        "grunt-ember-template-compiler": "*"
     },
     "scripts": {
         "postinstall": "bower install"
