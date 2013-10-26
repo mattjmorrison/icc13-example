@@ -1,0 +1,10 @@
+{
+    "dependencies": {
+        "grunt-cli": "*",
+        "grunt-karma": "*",
+        "load-grunt-tasks": "*",
+        "load-grunt-config": "*",
+        "karma-qunit": "*",
+        "karma-phantomjs-launcher": "*"
+    }
+}
