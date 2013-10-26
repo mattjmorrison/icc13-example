@@ -1,3 +1,1 @@
-function doSomething(){
-    return 100;
-}
+App = Ember.Application.create();

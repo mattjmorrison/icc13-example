@@ -1,3 +1,8 @@
 test("First Test", function(){
-    ok(doSomething() == 100, "Not 100");
+    Ember.run(App, 'advanceReadiness');
+
+    visit('/').then(function(){
+        var text = find("#message").text();
+        ok(text == 'Hello World', "Hello World is not found");
+    });
 });
