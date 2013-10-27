@@ -19,7 +19,7 @@ module.exports = {
                 "build/*.js": "coverage"
             },
             coverageReporter: {
-                type: "text",
+                type: "lcov",
                 dir: 'coverage/'
             },
             plugins: [

@@ -8,4 +8,5 @@ module.exports = (grunt) ->
     'coffee'
     'karma'
     'coffeelint'
+    'coveralls'
   ]

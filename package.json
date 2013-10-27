@@ -12,9 +12,11 @@
         "grunt-contrib-coffee": "*",
         "grunt-coffeelint": "*",
         "grunt-contrib-watch": "*",
-        "grunt-recess": "*"
+        "grunt-recess": "*",
+        "grunt-karma-coveralls": "*"
     },
     "scripts": {
-        "postinstall": "bower install"
+        "postinstall": "bower install",
+        "test": "grunt test"
     }
 }
